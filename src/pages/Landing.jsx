@@ -29,7 +29,10 @@ const Landing = () => {
 				>
 					• Botón misterioso
 				</button>
-				<p className='text-center font-rachelya text-3xl'></p>
+				<p className='text-center font-rachelya text-3xl mt-3'>
+					👀 que extraño, eso no tenía que suceder, intenta hacer
+					scroll ⬇️
+				</p>
 			</div>
 		</div>
 	);
