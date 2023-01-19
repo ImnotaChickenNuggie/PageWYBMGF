@@ -8,6 +8,7 @@ function App() {
 			<Routes>
 				<Route path='/' element={<page.Login />} />
 				<Route path='/secret' element={<page.Landing />} />
+				<Route path='*' element={<p>PAGE NOT FOUND</p>} />
 			</Routes>
 		</BrowserRouter>
 	);
