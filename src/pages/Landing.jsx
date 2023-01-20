@@ -4,6 +4,7 @@ import Music from '../assets/song.mp3';
 import Blap from '../assets/b-lap.jpeg';
 import Pikachu from '../assets/pikachu.jpg';
 import Codigo from '../components/Codigo';
+import HeartSwitch from '../components/HeartSwitch';
 
 const Landing = () => {
 	const [play] = useSound(Music);
@@ -58,12 +59,37 @@ const Landing = () => {
 							Haz hecho el scroll suficiente y ahora es momento de
 							comentarte que has sido timada, embarajiñada, porque
 							esta no es una página común y aburrida, está
-							diseñada con un fin mayor, que aún no será
-							desvelado, aunque te dejo una ventanita del código
-							para que lo revises y adivines que es 😂
+							diseñada con un fin mayor, que aún no será revelado,
+							aunque te dejo una ventanita del código para que lo
+							revises y adivines que es 😂
 						</p>
 					</div>
 					<Codigo />
+				</div>
+			</section>
+			{/* seccion 3 */}
+			<section className='h-screen flex bg-indigo-400'>
+				<div className='flex flex-col mx-10 mt-20'>
+					<p className='text-left text-white font-rachelya text-3xl mt-3'>
+						Well well well... parece que has hecho mucho scroll,
+						espero te estés divirtiendo tánto como yo armando y
+						programando todo esto 🤓 en fin, por cuestiones de
+						seguridad, está oculta la última sección, para poder
+						acceder a ella debes activar el corazoncito (El que
+						aparece abajo){' '}
+						<small className='text-[10px]'>
+							btw el mío ya está ✨
+						</small>
+					</p>
+					<div className='flex flex-col mx-auto mt-20'>
+						<HeartSwitch />
+					</div>
+					<div className='flex flex-col mx-auto mt-8'>
+						<p className='text-center text-white font-rachelya text-2xl'>
+							Da click bajo tu propia responsabilidad, <br /> una
+							vez activado no hay vuelta atrás.
+						</p>
+					</div>
 				</div>
 			</section>
 		</div>

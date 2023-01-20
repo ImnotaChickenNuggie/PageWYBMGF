@@ -43,7 +43,8 @@ const Codigo = () => {
 							Enserio estás leyendo esto? 😨
 						</p>
 						<p className='token property'>
-							Bueno, aprovecho pa' poner que tkm🥰
+							Bueno, aprovecho pa' poner que soy fan de estar
+							contigo, tkm🥰
 						</p>
 						<p>{'<br/>'}</p>
 						<p>//Llegó el momento de que sigas haciendo scroll</p>
