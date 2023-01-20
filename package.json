@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@uiw/react-codemirror": "^4.19.7",
     "autoprefixer": "^10.4.13",
     "locomotive-scroll": "^4.1.4",
     "postcss": "^8.4.21",
