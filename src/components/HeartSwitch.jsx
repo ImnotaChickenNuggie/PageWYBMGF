@@ -4,7 +4,9 @@ import './HeartSwitch.css';
 const HeartSwitch = () => {
 	const handleClick = () => {
 		console.log('vivo');
-		// document.getElementById('txtp1').style.display = 'none';
+		document.getElementById('leyenda').style.display = 'none';
+		document.getElementById('divSecreto').style.display = 'block';
+		document.getElementById('seccionOculta').style.display = 'block';
 		document.getElementById('switchLove').setAttribute('disabled', true);
 	};
 	return (
