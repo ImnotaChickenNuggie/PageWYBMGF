@@ -7,30 +7,30 @@ import Metamask from '../assets/metamask.png';
 
 const Login = () => {
 	return (
-		<div className='container bg-indigo-100 w-screen h-screen overflow-y-hidden'>
+		<div className='container bg-indigo-100 w-screen h-screen md:overflow-y-hidden'>
 			{/* navbar */}
 			<div className='w-full flex flex-row p-4'>
 				<img
-					className='w-2/12 cursor-pointer'
+					className='w-1/3 md:w-2/12 cursor-pointer'
 					src={Logo}
 					alt='logotipo de la empresa'
 				/>
 			</div>
 			{/* contenedor */}
-			<div className='flex flex-row'>
-				<div className='w-3/5'>
+			<div className='flex flex-col md:flex-row bg-indigo-100'>
+				<div className='md:w-3/5'>
 					<img
-						// className='w-2/12 cursor-pointer'
+						className='w-2/4 mx-auto md:w-full cursor-pointer'
 						src={ImgDesktop}
 						alt='Render en 3D de una computadora y crypto'
 					/>
 				</div>
-				<div className=' w-2/5'>
+				<div className=' md:w-2/5'>
 					<div className='flex flex-col h-full items-center'>
-						<p className='font-sans font-semibold text-4xl text-center text-neutral-800 mt-6 mb-2'>
+						<p className='font-sans font-semibold text-2xl md:text-4xl text-center text-neutral-800 md:mt-6 mb-2'>
 							¡Qué gusto verte de nuevo!
 						</p>
-						<p className='font-sans text-neutral-800 text-center my-4'>
+						<p className='font-sans text-neutral-800 text-center mb-2 md:my-4'>
 							Ingresa a la plataforma y comienza a invertir en
 							minutos.
 						</p>
