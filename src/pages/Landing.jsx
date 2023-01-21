@@ -58,10 +58,10 @@ const Landing = () => {
 					<div className='flex flex-row mt-20 mx-10'>
 						<img
 							src={Blap}
-							className='rounded-full w-36'
+							className='rounded-full w-16 h-16 md:w-36 md:h-36'
 							alt='Bruno programador'
 						/>
-						<p className='text-right text-white font-rachelya text-3xl mt-3'>
+						<p className='text-right text-white font-rachelya text-xl md:text-3xl mt-3'>
 							Haz hecho el scroll suficiente y ahora es momento de
 							comentarte que has sido timada, embarajiñada, porque
 							esta no es una página común y aburrida, está
