@@ -75,8 +75,8 @@ const Landing = () => {
 			</section>
 			{/* seccion 3 */}
 			<section className='h-screen flex bg-indigo-400'>
-				<div className='flex flex-col mx-10 mt-20'>
-					<p className='text-left text-white font-rachelya text-3xl mt-3'>
+				<div className='flex flex-col mx-10 mt-10 md:mt-20'>
+					<p className='text-center md:text-left text-white font-rachelya text-3xl mt-3'>
 						Well well well... parece que has hecho mucho scroll,
 						espero te estés divirtiendo tánto como yo armando y
 						programando todo esto 🤓 en fin, por cuestiones de
@@ -101,15 +101,15 @@ const Landing = () => {
 					</div>
 					<div
 						id='divSecreto'
-						className='flex-col mx-auto mt-16 hidden'
+						className='flex-col mx-auto md:mt-16 hidden'
 					>
 						<div className='flex flex-row gap-x-8'>
 							<img
 								src={BHeart}
-								className='rounded-full w-36 mx-auto hover-trigger'
+								className='rounded-full w-12 h-12 md:w-36 md:h-36 mx-auto hover-trigger'
 								alt='Bruno con mano corazón'
 							/>
-							<div className='p-4 font-mono text-sm rounded-md shadow-lg bg-slate-100 hover-target'>
+							<div className='p-4 font-mono z-50 text-[12px] -mt-64 md:mt-0 md:text-sm rounded-md shadow-lg bg-slate-100 hover-target'>
 								<p>
 									Hola Jess, este es un cyberBruno (por eso te
 									saludo de nuevo) jaja, creo que sabes a
@@ -127,7 +127,7 @@ const Landing = () => {
 								</p>
 							</div>
 						</div>
-						<p className='text-center text-white font-rachelya text-2xl'>
+						<p className='text-center text-white font-rachelya text-xl md:text-2xl -mt-[10rem] md:mt-0'>
 							Listo, puedes hacer scroll o antes poner el cursor
 							encima del Bruno.
 						</p>
