@@ -137,7 +137,7 @@ const Landing = () => {
 			{/* ultima sección */}
 			<section id='seccionOculta' className='h-screen bg-rose-400 hidden'>
 				<div className='flex flex-row mx-auto'>
-					<h1 className='neon text-8xl mx-auto pt-40'>
+					<h1 className='neon text-4xl md:text-8xl mx-auto pt-40'>
 						¿Do you want to be
 						<br />
 						my girlfriend?
