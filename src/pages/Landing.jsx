@@ -23,14 +23,14 @@ const Landing = () => {
 	return (
 		<div className='container scroll-smooth overflow-x-hidden width-screen bg-orange-200'>
 			<section className='flex flex-col mx-auto text-center mt-10 h-screen items-center'>
-				<p className='text-center font-rachelya text-9xl'>
+				<p className='text-center font-rachelya text-7xl md:text-9xl'>
 					Hola, Jessie
 				</p>
-				<p className='text-center font-rachelya text-3xl'>
+				<p className='text-center font-rachelya text-3xl mx-8 my-8'>
 					Sabías que eres la primer persona en utilizar esta página?
 					<p>por lo tanto, deberíamos hacer algo diferente.</p>
 				</p>
-				<p className='text-center font-rachelya text-3xl mt-3 mb-8'>
+				<p className='text-center font-rachelya text-3xl mt-3 mb-8 mx-8'>
 					Así que comienza dando click en el siguiente botón. 👇🏿
 				</p>
 				<button
@@ -41,7 +41,7 @@ const Landing = () => {
 					• Botón misterioso
 				</button>
 				<div id='hiddeDiv' className='hidden'>
-					<p className='text-center font-rachelya text-3xl mt-3'>
+					<p className='text-center font-rachelya text-3xl mt-3 mx-8'>
 						👀 que extraño, eso no tenía que suceder, intenta hacer
 						scroll ⬇️
 					</p>
